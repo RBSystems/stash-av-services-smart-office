@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		378E7E001BAC9F7700B37C82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E7DFF1BAC9F7700B37C82 /* AppDelegate.swift */; };
+		378E7E021BAC9F7700B37C82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E7E011BAC9F7700B37C82 /* ViewController.swift */; };
+		378E7E051BAC9F7700B37C82 /* smartOffice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 378E7E031BAC9F7700B37C82 /* smartOffice.xcdatamodeld */; };
+		378E7E081BAC9F7700B37C82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378E7E061BAC9F7700B37C82 /* Main.storyboard */; };
+		378E7E0A1BAC9F7700B37C82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378E7E091BAC9F7700B37C82 /* Assets.xcassets */; };
+		378E7E151BAC9F7700B37C82 /* smartOfficeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E7E141BAC9F7700B37C82 /* smartOfficeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		378E7E111BAC9F7700B37C82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 378E7DF41BAC9F7700B37C82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378E7DFB1BAC9F7700B37C82;
+			remoteInfo = smartOffice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		378E7DFC1BAC9F7700B37C82 /* smartOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		378E7DFF1BAC9F7700B37C82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		378E7E011BAC9F7700B37C82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		378E7E041BAC9F7700B37C82 /* smartOffice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = smartOffice.xcdatamodel; sourceTree = "<group>"; };
+		378E7E071BAC9F7700B37C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		378E7E091BAC9F7700B37C82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		378E7E0B1BAC9F7700B37C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378E7E101BAC9F7700B37C82 /* smartOfficeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartOfficeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		378E7E141BAC9F7700B37C82 /* smartOfficeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartOfficeTests.swift; sourceTree = "<group>"; };
+		378E7E161BAC9F7700B37C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378E7DF91BAC9F7700B37C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378E7E0D1BAC9F7700B37C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		378E7DF31BAC9F7700B37C82 = {
+			isa = PBXGroup;
+			children = (
+				378E7DFE1BAC9F7700B37C82 /* smartOffice */,
+				378E7E131BAC9F7700B37C82 /* smartOfficeTests */,
+				378E7DFD1BAC9F7700B37C82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		378E7DFD1BAC9F7700B37C82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				378E7DFC1BAC9F7700B37C82 /* smartOffice.app */,
+				378E7E101BAC9F7700B37C82 /* smartOfficeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		378E7DFE1BAC9F7700B37C82 /* smartOffice */ = {
+			isa = PBXGroup;
+			children = (
+				378E7DFF1BAC9F7700B37C82 /* AppDelegate.swift */,
+				378E7E011BAC9F7700B37C82 /* ViewController.swift */,
+				378E7E061BAC9F7700B37C82 /* Main.storyboard */,
+				378E7E091BAC9F7700B37C82 /* Assets.xcassets */,
+				378E7E0B1BAC9F7700B37C82 /* Info.plist */,
+				378E7E031BAC9F7700B37C82 /* smartOffice.xcdatamodeld */,
+			);
+			path = smartOffice;
+			sourceTree = "<group>";
+		};
+		378E7E131BAC9F7700B37C82 /* smartOfficeTests */ = {
+			isa = PBXGroup;
+			children = (
+				378E7E141BAC9F7700B37C82 /* smartOfficeTests.swift */,
+				378E7E161BAC9F7700B37C82 /* Info.plist */,
+			);
+			path = smartOfficeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		378E7DFB1BAC9F7700B37C82 /* smartOffice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378E7E191BAC9F7700B37C82 /* Build configuration list for PBXNativeTarget "smartOffice" */;
+			buildPhases = (
+				378E7DF81BAC9F7700B37C82 /* Sources */,
+				378E7DF91BAC9F7700B37C82 /* Frameworks */,
+				378E7DFA1BAC9F7700B37C82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smartOffice;
+			productName = smartOffice;
+			productReference = 378E7DFC1BAC9F7700B37C82 /* smartOffice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		378E7E0F1BAC9F7700B37C82 /* smartOfficeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378E7E1C1BAC9F7700B37C82 /* Build configuration list for PBXNativeTarget "smartOfficeTests" */;
+			buildPhases = (
+				378E7E0C1BAC9F7700B37C82 /* Sources */,
+				378E7E0D1BAC9F7700B37C82 /* Frameworks */,
+				378E7E0E1BAC9F7700B37C82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				378E7E121BAC9F7700B37C82 /* PBXTargetDependency */,
+			);
+			name = smartOfficeTests;
+			productName = smartOfficeTests;
+			productReference = 378E7E101BAC9F7700B37C82 /* smartOfficeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		378E7DF41BAC9F7700B37C82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = BYUAV;
+				TargetAttributes = {
+					378E7DFB1BAC9F7700B37C82 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					378E7E0F1BAC9F7700B37C82 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 378E7DFB1BAC9F7700B37C82;
+					};
+				};
+			};
+			buildConfigurationList = 378E7DF71BAC9F7700B37C82 /* Build configuration list for PBXProject "smartOffice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 378E7DF31BAC9F7700B37C82;
+			productRefGroup = 378E7DFD1BAC9F7700B37C82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				378E7DFB1BAC9F7700B37C82 /* smartOffice */,
+				378E7E0F1BAC9F7700B37C82 /* smartOfficeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		378E7DFA1BAC9F7700B37C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378E7E0A1BAC9F7700B37C82 /* Assets.xcassets in Resources */,
+				378E7E081BAC9F7700B37C82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378E7E0E1BAC9F7700B37C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		378E7DF81BAC9F7700B37C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378E7E051BAC9F7700B37C82 /* smartOffice.xcdatamodeld in Sources */,
+				378E7E021BAC9F7700B37C82 /* ViewController.swift in Sources */,
+				378E7E001BAC9F7700B37C82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378E7E0C1BAC9F7700B37C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378E7E151BAC9F7700B37C82 /* smartOfficeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		378E7E121BAC9F7700B37C82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 378E7DFB1BAC9F7700B37C82 /* smartOffice */;
+			targetProxy = 378E7E111BAC9F7700B37C82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		378E7E061BAC9F7700B37C82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378E7E071BAC9F7700B37C82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		378E7E171BAC9F7700B37C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		378E7E181BAC9F7700B37C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		378E7E1A1BAC9F7700B37C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = smartOffice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.byu.oit.av.smartOffice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		378E7E1B1BAC9F7700B37C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = smartOffice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.byu.oit.av.smartOffice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		378E7E1D1BAC9F7700B37C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = smartOfficeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.byu.oit.av.smartOfficeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartOffice.app/smartOffice";
+			};
+			name = Debug;
+		};
+		378E7E1E1BAC9F7700B37C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = smartOfficeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.byu.oit.av.smartOfficeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartOffice.app/smartOffice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		378E7DF71BAC9F7700B37C82 /* Build configuration list for PBXProject "smartOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378E7E171BAC9F7700B37C82 /* Debug */,
+				378E7E181BAC9F7700B37C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378E7E191BAC9F7700B37C82 /* Build configuration list for PBXNativeTarget "smartOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378E7E1A1BAC9F7700B37C82 /* Debug */,
+				378E7E1B1BAC9F7700B37C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		378E7E1C1BAC9F7700B37C82 /* Build configuration list for PBXNativeTarget "smartOfficeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378E7E1D1BAC9F7700B37C82 /* Debug */,
+				378E7E1E1BAC9F7700B37C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		378E7E031BAC9F7700B37C82 /* smartOffice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				378E7E041BAC9F7700B37C82 /* smartOffice.xcdatamodel */,
+			);
+			currentVersion = 378E7E041BAC9F7700B37C82 /* smartOffice.xcdatamodel */;
+			path = smartOffice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 378E7DF41BAC9F7700B37C82 /* Project object */;
+}
